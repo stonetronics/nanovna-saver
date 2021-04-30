@@ -315,7 +315,7 @@ def main():
     print("s21_raw:")
     printdatapoints(s21_raw)
         
-    my_test.exportFile("/home/stone/GIT/nanovna-saver/touchstoneTest.csv", [s11_raw, s21_raw])
+    my_test.exportFile("touchstoneTest.csv", [s11_raw, s21_raw])
 
     calibrated_read__ = my_test.apply_calibration(s11_raw, s21_raw)
 
